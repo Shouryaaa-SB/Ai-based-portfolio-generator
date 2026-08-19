@@ -47,3 +47,16 @@ Structured Resume Data
 User Editing
       ↓
 Portfolio Generation
+
+
+| Technology | Purpose                   |
+| ---------- | ------------------------- |
+| Python     | Backend logic             |
+| Flask      | Web server                |
+| Gemini API | AI-powered resume parsing |
+| PyMuPDF    | PDF text extraction       |
+| Tesseract  | OCR                       |
+| Pillow     | Image processing          |
+| HTML       | Structure                 |
+| CSS        | Styling                   |
+| JavaScript | Frontend interaction      |
