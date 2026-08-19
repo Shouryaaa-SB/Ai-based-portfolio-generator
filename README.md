@@ -26,7 +26,37 @@ The application combines **Gemini AI, OCR, PyMuPDF, Tesseract, Python, Flask, HT
 - 🔗 Add GitHub, LinkedIn and other social links
 - 📜 Certificate upload support
 - 📱 Responsive web interface
-
+                  ┌─────────────────┐
+                  │   Resume File   │
+                  └────────┬────────┘
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │  Flask Backend  │
+                  └────────┬────────┘
+                           │
+                 ┌─────────┴─────────┐
+                 ▼                   ▼
+          ┌─────────────┐     ┌─────────────┐
+          │  PyMuPDF    │     │  Tesseract  │
+          │ PDF Extract │     │     OCR     │
+          └──────┬──────┘     └──────┬──────┘
+                 │                   │
+                 └─────────┬─────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │   Gemini API    │
+                  │  JSON Parsing   │
+                  └────────┬────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │ Portfolio Data  │
+                  └────────┬────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │ HTML Portfolio  │
+                  └─────────────────┘
+  
 ---
 
 ## 🧠 How It Works
